@@ -1,5 +1,5 @@
 # Copyright (C) 2014-2016 The CyanogenMod Project
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -41,12 +41,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/samsung/kmini3g/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/samsung/kmini3g/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/samsung/kmini3g/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
     vendor/samsung/kmini3g/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/kmini3g/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/kmini3g/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/samsung/kmini3g/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/kmini3g/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
     vendor/samsung/kmini3g/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
+    vendor/samsung/kmini3g/proprietary/vendor/lib/libacdapi_clb.so:system/vendor/lib/libacdapi_clb.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libaec_algo_front.so:system/vendor/lib/libaec_algo_front.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libaec_algo_rear.so:system/vendor/lib/libaec_algo_rear.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libaf_algo_rear.so:system/vendor/lib/libaf_algo_rear.so \
@@ -79,7 +82,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
     vendor/samsung/kmini3g/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+    vendor/samsung/kmini3g/proprietary/vendor/lib/libhr.so:system/vendor/lib/libhr.so \
+    vendor/samsung/kmini3g/proprietary/vendor/lib/libinvensense_hal.so:system/vendor/lib/libinvensense_hal.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/samsung/kmini3g/proprietary/vendor/lib/libmllite.so:system/vendor/lib/libmllite.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmcamera_cac.so:system/vendor/lib/libmmcamera_cac.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
@@ -87,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/samsung/kmini3g/proprietary/vendor/lib/libmplmpu.so:system/vendor/lib/libmplmpu.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
@@ -178,7 +185,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/samsung/kmini3g/proprietary/system/vendor/lib/libsensor1.so:system/system/vendor/lib/libsensor1.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/samsung/kmini3g/proprietary/system/vendor/lib/libsensor_reg.so:system/system/vendor/lib/libsensor_reg.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
