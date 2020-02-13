@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
-    vendor/samsung/kmini3g/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libhr.so:system/vendor/lib/libhr.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libinvensense_hal.so:system/vendor/lib/libinvensense_hal.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -204,4 +203,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService
+    TimeService \
+    libfmjni
